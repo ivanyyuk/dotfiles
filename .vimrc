@@ -10,6 +10,8 @@ Plug 'moll/vim-node'
 
 Plug 'scrooloose/nerdcommenter'
 
+Plug 'Quramy/tsuquyomi' "Typescript IDE Stuff
+
 "Neovim stuff
 "Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
  Plug 'Valloric/YouCompleteMe'
@@ -243,3 +245,5 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_typescript_checkers = ['tsuquyomi'] 
+
