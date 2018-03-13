@@ -1,4 +1,3 @@
-
 "Start Loading  Plugins
 call plug#begin('~/.nvim/plugged')
 
